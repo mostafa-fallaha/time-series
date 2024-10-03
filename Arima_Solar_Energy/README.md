@@ -2,18 +2,6 @@
 
 This project was a bit of an educational project for me to undesrtand how to build and evaluate ARIMA models.
 
-## Time Series
-
-A time series can be made up of three key components.
-
-- Trend: A long-term increase or decrease are termed trends.
-- Seasonality: An effect of seasonal factors for a fixed or known period. For example, retail stores sales will be high during weekends and festival seasons.
-- Cycle: These are the longer ups and downs that are not of fixed or known periods caused by external factors.
-
-| Time Series components                 |
-| -------------------------------------- |
-| ![Landing](./readme/ts_components.png) |
-
 ## Important Concepts
 
 **Stationary**: A time-series data having the mean and variance as a constant is called a stationary time series. Removing trends or seasonality. If the time series is trending upwards, differencing will help remove that trend.
