@@ -81,7 +81,7 @@ Forecast for Day 5 = 111.25 + (0.5⋅(+1)) = 111.25+0.5 = 111.75
 | ![Landing](./readme/acf_pacf.png) |
 
 **ACF**: The gradual decay in the ACF plot suggests that there is some autocorrelation in the data, which might indicate the presence of a moving average (MA) component. The significant spikes at lag 1 suggest that the time series is correlated with its first lag, while the other spikes may point to short-term dependencies.
-<br>
+<br><br>
 **PACF**: The sharp drop after lag 1 in the PACF plot suggests that an autoregressive (AR) model with a lag of 2 might fit the data well.
 <br><br>
 So, we might consider an ARIMA model with:
@@ -96,7 +96,7 @@ So, we might consider an ARIMA model with:
 
 The ARIMA (2,0,2) is the best one so far.
 <br>
-Even though the ARIMA (2,1,2) has slighlty better metrics, but the the ARIMA (2,0,2) has a significantly better Durbin-Watson value.
+Even though the ARIMA (2,1,2) looks better _(and has slighlty better metrics)_, but the the ARIMA (2,0,2) has a significantly better Durbin-Watson value.
 
 - Durbin-Watson statistic for ARIMA (2,0,2): **1.85** (the closer to 2 the better)
 - Durbin-Watson statistic for ARIMA (2,1,2): **0.89**
