@@ -82,14 +82,9 @@ So, we might consider an ARIMA model with:
 | ---------------------------------- | ---------------------------------- | ---------------------------------- |
 | ![Landing](./readme/arima_101.png) | ![Landing](./readme/arima_202.png) | ![Landing](./readme/arima_212.png) |
 
-The ARIMA (2,0,2) is the best one so far.
 <br>
-Even though the ARIMA (2,1,2) looks better _(and has slighlty better metrics)_, but the the ARIMA (2,0,2) has a significantly better Durbin-Watson value.
 
-- Durbin-Watson statistic for ARIMA (2,0,2): **1.85** (the closer to 2 the better)
-- Durbin-Watson statistic for ARIMA (2,1,2): **0.89**
-
-We will use the ARIMA (2,0,2) to make predictions.
+We can see that the ARIMA (2,1,2) is the best one so far.
 
 | Final ARIMA                          |
 | ------------------------------------ |
