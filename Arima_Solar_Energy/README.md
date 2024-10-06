@@ -1,6 +1,8 @@
 # ARIMA Solar Energy
 
 This project was a bit of an educational project for me to undesrtand how to build and evaluate ARIMA models.
+<br>
+The ARIMA model was used to predict the amount of solar energy generated.
 
 ## Important Concepts
 
