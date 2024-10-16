@@ -1,3 +1,6 @@
 .ipynb_checkpoints
 time_series_60min_singleindex.csv
 Arima_Solar_Energy/arima_2.ipynb
+s&p/sp500_esg_data.csv
+s&p/sp500_price_data.csv
+s&p/aapl_predictions.ipynb
